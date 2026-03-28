@@ -1,4 +1,4 @@
-Objective: obtain the flag
+**Objective: obtain the flag**
 
 ```c
 undefined4 FUN_080484f4(int param_1,undefined4 *param_2)
