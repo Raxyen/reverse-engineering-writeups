@@ -1,4 +1,4 @@
-Objective: Find the super-secret password and use it to obtain the flag
+**Objective: Find the super-secret password and use it to obtain the flag**
 
 ```c
 undefined4 main(int param_1,undefined4 *param_2)
