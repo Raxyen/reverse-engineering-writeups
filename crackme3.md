@@ -34,7 +34,10 @@ undefined4 FUN_080484f4(int param_1,undefined4 *param_2)
   return 0xffffffff;
 
 ```
-After decompling the ELF with Ghidra we get 4 functions containing some real code. We can ignore the rest. Above there's one of those functions containing a string being a base64 encoded flag we need to find in this task. Remaining 3 functions are responsible for base64 encoding but we don't need to analyze them. All we have to know is how base64 encoded strings look like.
+After decompling the ELF with Ghidra we get 4 functions containing some real code. We can ignore the rest. Above there's one of those functions containing a string being a base64 encoded flag we need to find in this task. The remaining functions implement the encoding logic and are not required to solve this challenge. In order to solve it we only have to know how base64 encoded strings look like:
+- alphanumeric (`a-z`, `A-Z`, `0-9`)
+- mandatory padding using equal signs on the end
+- length (character count) divisible by 4 (with the padding)
 
 Base64 flag: `ZjByX3kwdXJfNWVjMG5kX2xlNTVvbl91bmJhc2U2NF80bGxfN2gzXzdoMW5nNQ==`<br>
 Decoded flag: f0r_y0ur_5ec0nd_le55on_unbase64_4ll_7h3_7h1ng5
