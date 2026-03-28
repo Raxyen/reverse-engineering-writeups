@@ -52,7 +52,7 @@ void giveFlag(void)
 ```
 ---
 
-The password can be identified directly in the main function via strcmp:
+The password can be identified directly in the main function via `strcmp`:
 
 `iVar2 = strcmp((char *)param_2[1],"super_secret_password");`
 
