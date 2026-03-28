@@ -16,11 +16,12 @@ undefined8 main(int param_1,undefined8 *param_2)
 
 int param_1 -> int argc (arguments count)
 undefined8 *param_2 -> char *argv[] (arguments array)
+```
 
 The code shows all the function does is to check if the second argument (first one is a name of the program while executing with CLI) is equal to the password using compare_pwd function
+compare_pwd() looks that way
 
-compare_pwd() looks like this
-
+```c
 void compare_pwd(char *param_1)
 
 {
