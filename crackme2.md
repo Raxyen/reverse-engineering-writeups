@@ -67,7 +67,7 @@ for (local_20 = 0; local_20 < 0x33; local_20 = local_20 + 1) {
 }
 ```
 
-The flag (which is a 51-character string) was obfuscated using an array of 51 unsigned integers and an 51-chars array filled with value `0x41` (65 in decimal). Above the code there was a pointer variable refering to local_ec array (yeah, that one with 51 unsigned ints needed to deobfuscate the flag)
+The flag (which is a 51-character string) was obfuscated using an array of 51 unsigned integers and an 51-chars array filled with value `0x41` (65 in decimal). Above the code there was a pointer variable refering to `local_ec` array (yeah, that one with 51 unsigned ints needed to deobfuscate the flag)
 
 ```c
 puVar2 = &DAT_080486c0;
