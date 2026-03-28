@@ -19,7 +19,7 @@ This repository contains comprehensive writeups for various reverse engineering 
 
 ## Getting Started
 
-Each challenge directory includes:
+Each challenge desription file includes:
 - Problem description
 - Solution approach
 - Key insights and lessons learned
